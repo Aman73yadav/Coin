@@ -1,0 +1,7 @@
+{
+  "TIMESTAMP_TOLERANCE_SECONDS": 300,
+  "QUANTITY_TOLERANCE_PCT": 0.01,
+  "DB_DRIVER": "memory",
+  "MONGODB_URI": "mongodb://localhost:27017/reconciliation",
+  "PORT": 3000
+}

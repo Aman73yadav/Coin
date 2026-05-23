@@ -1,0 +1,19 @@
+{
+  "name": "crypto-reconciliation-engine",
+  "version": "1.0.0",
+  "description": "Transaction Reconciliation Engine for crypto accounts",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/test.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.3",
+    "csv-stringify": "^6.4.6",
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "uuid": "^9.0.0"
+  }
+}
